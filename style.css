@@ -68,12 +68,14 @@ nav .logo {
 }
 
 .placeholder {
-    background-color: #cecece;
+    background-color: #69708a;
     width: 30%;
     height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .secondText {
@@ -132,4 +134,39 @@ nav .logo {
     font-size: 28px;
     margin-top: 18px;
     margin-right: 42px;
+}
+
+.fourth {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthcontainer {
+    background-color: #3882F6;
+    width: 60%;
+    height: 40%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthtext {
+    padding-left: 32px;
+    color: #F9FAF8;
+}
+
+.secondbutton {
+    height: 50px;
+    width: 200px;
+    margin-right: 32px;
+    background-color: #3882F6;
+    border: 4px solid white;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
 }
