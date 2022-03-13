@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    background-color: #1F2937;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.content .signup {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    width: 160px;
+    font-size: 24px;
+    margin-top: 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 92.7vh;
+}
+
+.content {
+    width: 25%;
+    margin-right: 48px;
+}
+
+.placeholder {
+    background-color: #cecece;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
