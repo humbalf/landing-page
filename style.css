@@ -106,3 +106,30 @@ nav .logo {
     font-size: 18px;
     color: #2c2c2c;
 }
+
+.third {
+    background-color: #E5E7EB;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 50%;
+}
+
+.itallicquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-right: 42px;
+}
